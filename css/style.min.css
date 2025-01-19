@@ -364,15 +364,17 @@ hr {
     color: #828282;
 }
 #sp-intro #sp-title {
-    position: absolute;
-    top: calc(50% - calc(var(--sp-intro-scale) * 115px));
-    width: 100%;
-    height: calc(var(--sp-intro-scale) * 100px);
-    pointer-events: none;
-    background-image: url(../img/title.svg);
-    background-repeat: no-repeat;
-    background-position: calc(50% + calc(var(--sp-intro-scale) * 20px)) center;
-    transform: translate(0, 0);
+    position:absolute;
+    top:110px;
+    left:50%;
+    width:500px;
+    margin-left:-230px;
+    height:108px;
+    -webkit-transform:translateY(0);
+    transform:translateY(0);
+    pointer-events:none;
+    background-image:url(../img/title.svg);
+    background-repeat:no-repeat
 }
 .darkmode #sp-intro #sp-title {
     background-image: url(../img/title-darkmode.svg);
