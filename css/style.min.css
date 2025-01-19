@@ -6,15 +6,15 @@
     --box-bottom-height-int: 33;
     --box-top-height-pct: calc(var(--box-top-height-int) * 1%);
     --box-bottom-height-pct: calc(var(--box-bottom-height-int) * 1%);
-    --colV1: #5f5f5f;
-    --colV2: #c32d2d;
-    --colV3: #3c646e;
-    --colV4: #ba7b3d;
-    --colV5: #41a032;
-    --colV6: #825fd2;
-    --colV7: #d65a1e;
-    --colV8: #5f7e7b;
-    --colV9: #005cfa;
+    --colV1: #d0b858;
+    --colV2: #1aeee6;
+    --colV3: #8A3400;
+    --colV4: #5f5f5f;
+    --colV5: #5f5f5f;
+    --colV6: #5f5f5f;
+    --colV7: #5f5f5f;
+    --colV8: #5f5f5f;
+    --colV9: #5f5f5f;
     --colBck: #121212;
     --col0: #919191;
     --col1: #5f5f5f;
@@ -3483,9 +3483,9 @@ video::-webkit-media-controls {
     background-color: transparent !important;
 }
 .pop#pop-mod .container #img-modcredit {
-	width: 600px;
-	height: 340px;
-    background-image: url(../img/creditshit/credit-rizdidcodeong.png);
+	width: 1000px;
+	height: 750px;
+    background-image: url(../img/creditshit/credits-beatboys.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
